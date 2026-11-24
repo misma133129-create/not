@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-22T15:38:18.007Z",
+  "generatedAt": "2026-11-24T20:32:28.644Z",
   "totalAssets": 1527,
   "arabicAssets": 859,
   "englishAssets": 668,
-  "readyCount": 26,
-  "validCount": 26,
-  "missingCount": 1501,
+  "readyCount": 46,
+  "validCount": 46,
+  "missingCount": 1481,
   "invalidCount": 0,
   "needsReviewCount": 4,
   "verifiedCorrectCount": 0,
@@ -444,16 +444,13 @@
       "text": "3",
       "language": "ar",
       "screens": [
-        "AcademyScreen:numbers",
-        "Level1LessonRunner:stage10"
+        "AcademyScreen:numbers"
       ],
       "lessonIds": [
-        "NM04",
         "num-3"
       ],
       "activityOrStageIds": [
-        "number-tap",
-        "quiz-NM04-Q01"
+        "number-tap"
       ],
       "mp3Path": "public/assets/audio/academy/ar/ar_06a6253b8c83b340.mp3",
       "audioUrl": "/assets/audio/academy/ar/ar_06a6253b8c83b340.mp3",
@@ -1141,12 +1138,15 @@
       ],
       "mp3Path": "public/assets/audio/academy/ar/ar_0ec0d2daa4914678.mp3",
       "audioUrl": "/assets/audio/academy/ar/ar_0ec0d2daa4914678.mp3",
-      "generationStatus": "pending",
-      "validationStatus": "missing",
+      "generationStatus": "ready",
+      "validationStatus": "valid",
       "pronunciationReviewStatus": "not-applicable",
-      "bytes": 0,
-      "durationSeconds": null,
-      "maxVolumeDb": null
+      "bytes": 14061,
+      "durationSeconds": 1.7,
+      "maxVolumeDb": -3.2,
+      "model": "gemini-3.8-flash-lite-tts",
+      "voiceName": "Zephyr",
+      "updatedAt": "2026-11-24T20:26:13.364Z"
     },
     {
       "assetId": "ar_0edfbe907888614a",
@@ -2035,16 +2035,13 @@
       "text": "2",
       "language": "ar",
       "screens": [
-        "AcademyScreen:numbers",
-        "Level1LessonRunner:stage10"
+        "AcademyScreen:numbers"
       ],
       "lessonIds": [
-        "NM03",
         "num-2"
       ],
       "activityOrStageIds": [
-        "number-tap",
-        "quiz-NM03-Q01"
+        "number-tap"
       ],
       "mp3Path": "public/assets/audio/academy/ar/ar_1a689dbb6d94d825.mp3",
       "audioUrl": "/assets/audio/academy/ar/ar_1a689dbb6d94d825.mp3",
@@ -2598,16 +2595,13 @@
       "text": "0",
       "language": "ar",
       "screens": [
-        "AcademyScreen:numbers",
-        "Level1LessonRunner:stage10"
+        "AcademyScreen:numbers"
       ],
       "lessonIds": [
-        "NM01",
         "num-0"
       ],
       "activityOrStageIds": [
-        "number-tap",
-        "quiz-NM01-Q01"
+        "number-tap"
       ],
       "mp3Path": "public/assets/audio/academy/ar/ar_221094f8f0627253.mp3",
       "audioUrl": "/assets/audio/academy/ar/ar_221094f8f0627253.mp3",
@@ -5575,16 +5569,13 @@
       "text": "10",
       "language": "ar",
       "screens": [
-        "AcademyScreen:numbers",
-        "Level1LessonRunner:stage10"
+        "AcademyScreen:numbers"
       ],
       "lessonIds": [
-        "NM11",
         "num-10"
       ],
       "activityOrStageIds": [
-        "number-tap",
-        "quiz-NM11-Q01"
+        "number-tap"
       ],
       "mp3Path": "public/assets/audio/academy/ar/ar_45c601121089575d.mp3",
       "audioUrl": "/assets/audio/academy/ar/ar_45c601121089575d.mp3",
@@ -5657,12 +5648,16 @@
       ],
       "mp3Path": "public/assets/audio/academy/ar/ar_467f3e1bf1eb09c8.mp3",
       "audioUrl": "/assets/audio/academy/ar/ar_467f3e1bf1eb09c8.mp3",
-      "generationStatus": "pending",
-      "validationStatus": "missing",
+      "generationStatus": "ready",
+      "validationStatus": "valid",
       "pronunciationReviewStatus": "not-applicable",
-      "bytes": 0,
-      "durationSeconds": null,
-      "maxVolumeDb": null
+      "bytes": 97581,
+      "durationSeconds": 12.2,
+      "maxVolumeDb": -1.8,
+      "model": "gemini-3.8-flash-tts",
+      "voiceName": "Zephyr",
+      "updatedAt": "2026-11-24T20:30:42.921Z",
+      "ttsPromptText": "رحلة البحث عن الأشكال في المنزل. اطلب من طفلك إيجاد ٣ أشياء دائرية و٣ أشياء مربعة في الغرفة وعدّها معاً."
     },
     {
       "assetId": "ar_47259f0c403fc5fc",
@@ -5700,7 +5695,10 @@
         "NM09"
       ],
       "activityOrStageIds": [
+        "quiz-NM09-Q01",
         "quiz-NM09-Q02",
+        "quiz-NM09-Q04",
+        "quiz-NM09-Q05",
         "stage5-listen-select",
         "vocab-NM09-qty",
         "vocab-NM09-u1"
@@ -6487,12 +6485,16 @@
       ],
       "mp3Path": "public/assets/audio/academy/ar/ar_4fdee518dca2ab66.mp3",
       "audioUrl": "/assets/audio/academy/ar/ar_4fdee518dca2ab66.mp3",
-      "generationStatus": "pending",
-      "validationStatus": "missing",
+      "generationStatus": "ready",
+      "validationStatus": "valid",
       "pronunciationReviewStatus": "not-applicable",
-      "bytes": 0,
-      "durationSeconds": null,
-      "maxVolumeDb": null
+      "bytes": 101421,
+      "durationSeconds": 12.6,
+      "maxVolumeDb": -1.9,
+      "model": "gemini-3.8-flash-tts",
+      "voiceName": "Zephyr",
+      "updatedAt": "2026-11-24T20:31:09.759Z",
+      "ttsPromptText": "تشكيل الحروف بالصلصال أو الرمل. شكّلا حرف اليوم بالصلصال أو بإصبع اليد في صينية رمل لتثبيت الاتجاه الحركي."
     },
     {
       "assetId": "ar_502a4e73a623a882",
@@ -7593,7 +7595,10 @@
         "NM10"
       ],
       "activityOrStageIds": [
+        "quiz-NM10-Q01",
         "quiz-NM10-Q02",
+        "quiz-NM10-Q04",
+        "quiz-NM10-Q05",
         "stage5-listen-select",
         "vocab-NM10-qty",
         "vocab-NM10-u1"
@@ -8186,16 +8191,13 @@
       "text": "6",
       "language": "ar",
       "screens": [
-        "AcademyScreen:numbers",
-        "Level1LessonRunner:stage10"
+        "AcademyScreen:numbers"
       ],
       "lessonIds": [
-        "NM07",
         "num-6"
       ],
       "activityOrStageIds": [
-        "number-tap",
-        "quiz-NM07-Q01"
+        "number-tap"
       ],
       "mp3Path": "public/assets/audio/academy/ar/ar_621baa63ab4b6057.mp3",
       "audioUrl": "/assets/audio/academy/ar/ar_621baa63ab4b6057.mp3",
@@ -9475,12 +9477,15 @@
       ],
       "mp3Path": "public/assets/audio/academy/ar/ar_705f41f44976a0d3.mp3",
       "audioUrl": "/assets/audio/academy/ar/ar_705f41f44976a0d3.mp3",
-      "generationStatus": "pending",
-      "validationStatus": "missing",
+      "generationStatus": "ready",
+      "validationStatus": "valid",
       "pronunciationReviewStatus": "not-applicable",
-      "bytes": 0,
-      "durationSeconds": null,
-      "maxVolumeDb": null
+      "bytes": 14061,
+      "durationSeconds": 1.7,
+      "maxVolumeDb": -3.8,
+      "model": "gemini-3.8-flash-lite-tts",
+      "voiceName": "Zephyr",
+      "updatedAt": "2026-11-24T20:27:01.528Z"
     },
     {
       "assetId": "ar_7089ae60d6febeac",
@@ -9649,16 +9654,13 @@
       "text": "8",
       "language": "ar",
       "screens": [
-        "AcademyScreen:numbers",
-        "Level1LessonRunner:stage10"
+        "AcademyScreen:numbers"
       ],
       "lessonIds": [
-        "NM09",
         "num-8"
       ],
       "activityOrStageIds": [
-        "number-tap",
-        "quiz-NM09-Q01"
+        "number-tap"
       ],
       "mp3Path": "public/assets/audio/academy/ar/ar_732ba60efb9ff014.mp3",
       "audioUrl": "/assets/audio/academy/ar/ar_732ba60efb9ff014.mp3",
@@ -11175,7 +11177,10 @@
         "NM06"
       ],
       "activityOrStageIds": [
+        "quiz-NM06-Q01",
         "quiz-NM06-Q02",
+        "quiz-NM06-Q04",
+        "quiz-NM06-Q05",
         "stage5-listen-select",
         "vocab-NM06-qty",
         "vocab-NM06-u1"
@@ -11757,7 +11762,10 @@
         "NM07"
       ],
       "activityOrStageIds": [
+        "quiz-NM07-Q01",
         "quiz-NM07-Q02",
+        "quiz-NM07-Q04",
+        "quiz-NM07-Q05",
         "stage5-listen-select",
         "vocab-NM07-qty",
         "vocab-NM07-u1"
@@ -12912,7 +12920,10 @@
         "NM02"
       ],
       "activityOrStageIds": [
+        "quiz-NM02-Q01",
         "quiz-NM02-Q02",
+        "quiz-NM02-Q04",
+        "quiz-NM02-Q05",
         "stage5-listen-select",
         "vocab-NM02-qty",
         "vocab-NM02-u1"
@@ -13077,7 +13088,10 @@
         "NM01"
       ],
       "activityOrStageIds": [
+        "quiz-NM01-Q01",
         "quiz-NM01-Q02",
+        "quiz-NM01-Q04",
+        "quiz-NM01-Q05",
         "stage5-listen-select",
         "vocab-NM01-qty",
         "vocab-NM01-u1"
@@ -13254,7 +13268,10 @@
         "NM11"
       ],
       "activityOrStageIds": [
+        "quiz-NM11-Q01",
         "quiz-NM11-Q02",
+        "quiz-NM11-Q04",
+        "quiz-NM11-Q05",
         "stage5-listen-select",
         "vocab-NM11-qty",
         "vocab-NM11-u1"
@@ -13627,12 +13644,15 @@
       ],
       "mp3Path": "public/assets/audio/academy/ar/ar_a28c1cca11de16f2.mp3",
       "audioUrl": "/assets/audio/academy/ar/ar_a28c1cca11de16f2.mp3",
-      "generationStatus": "pending",
-      "validationStatus": "missing",
+      "generationStatus": "ready",
+      "validationStatus": "valid",
       "pronunciationReviewStatus": "not-applicable",
-      "bytes": 0,
-      "durationSeconds": null,
-      "maxVolumeDb": null
+      "bytes": 12141,
+      "durationSeconds": 1.5,
+      "maxVolumeDb": -3.6,
+      "model": "gemini-3.8-flash-lite-tts",
+      "voiceName": "Zephyr",
+      "updatedAt": "2026-11-24T20:27:25.871Z"
     },
     {
       "assetId": "ar_a2e1e7f45dc3b65d",
@@ -13732,16 +13752,13 @@
       "text": "7",
       "language": "ar",
       "screens": [
-        "AcademyScreen:numbers",
-        "Level1LessonRunner:stage10"
+        "AcademyScreen:numbers"
       ],
       "lessonIds": [
-        "NM08",
         "num-7"
       ],
       "activityOrStageIds": [
-        "number-tap",
-        "quiz-NM08-Q01"
+        "number-tap"
       ],
       "mp3Path": "public/assets/audio/academy/ar/ar_a6338d7cc6915fd1.mp3",
       "audioUrl": "/assets/audio/academy/ar/ar_a6338d7cc6915fd1.mp3",
@@ -14655,16 +14672,13 @@
       "text": "5",
       "language": "ar",
       "screens": [
-        "AcademyScreen:numbers",
-        "Level1LessonRunner:stage10"
+        "AcademyScreen:numbers"
       ],
       "lessonIds": [
-        "NM06",
         "num-5"
       ],
       "activityOrStageIds": [
-        "number-tap",
-        "quiz-NM06-Q01"
+        "number-tap"
       ],
       "mp3Path": "public/assets/audio/academy/ar/ar_b2fc87feafcf8025.mp3",
       "audioUrl": "/assets/audio/academy/ar/ar_b2fc87feafcf8025.mp3",
@@ -15589,16 +15603,13 @@
       "text": "9",
       "language": "ar",
       "screens": [
-        "AcademyScreen:numbers",
-        "Level1LessonRunner:stage10"
+        "AcademyScreen:numbers"
       ],
       "lessonIds": [
-        "NM10",
         "num-9"
       ],
       "activityOrStageIds": [
-        "number-tap",
-        "quiz-NM10-Q01"
+        "number-tap"
       ],
       "mp3Path": "public/assets/audio/academy/ar/ar_bf19a297a203a32f.mp3",
       "audioUrl": "/assets/audio/academy/ar/ar_bf19a297a203a32f.mp3",
@@ -15665,16 +15676,13 @@
       "text": "4",
       "language": "ar",
       "screens": [
-        "AcademyScreen:numbers",
-        "Level1LessonRunner:stage10"
+        "AcademyScreen:numbers"
       ],
       "lessonIds": [
-        "NM05",
         "num-4"
       ],
       "activityOrStageIds": [
-        "number-tap",
-        "quiz-NM05-Q01"
+        "number-tap"
       ],
       "mp3Path": "public/assets/audio/academy/ar/ar_bfbb909231056fda.mp3",
       "audioUrl": "/assets/audio/academy/ar/ar_bfbb909231056fda.mp3",
@@ -16189,12 +16197,15 @@
       ],
       "mp3Path": "public/assets/audio/academy/ar/ar_c9c4ac78c8c24212.mp3",
       "audioUrl": "/assets/audio/academy/ar/ar_c9c4ac78c8c24212.mp3",
-      "generationStatus": "pending",
-      "validationStatus": "missing",
+      "generationStatus": "ready",
+      "validationStatus": "valid",
       "pronunciationReviewStatus": "not-applicable",
-      "bytes": 0,
-      "durationSeconds": null,
-      "maxVolumeDb": null
+      "bytes": 15021,
+      "durationSeconds": 1.8,
+      "maxVolumeDb": -4,
+      "model": "gemini-3.8-flash-lite-tts",
+      "voiceName": "Zephyr",
+      "updatedAt": "2026-11-24T20:27:50.014Z"
     },
     {
       "assetId": "ar_c9d36596561d627d",
@@ -16352,7 +16363,10 @@
         "NM05"
       ],
       "activityOrStageIds": [
+        "quiz-NM05-Q01",
         "quiz-NM05-Q02",
+        "quiz-NM05-Q04",
+        "quiz-NM05-Q05",
         "stage5-listen-select",
         "vocab-NM05-qty",
         "vocab-NM05-u1"
@@ -16736,7 +16750,10 @@
         "NM03"
       ],
       "activityOrStageIds": [
+        "quiz-NM03-Q01",
         "quiz-NM03-Q02",
+        "quiz-NM03-Q04",
+        "quiz-NM03-Q05",
         "stage5-listen-select",
         "vocab-NM03-qty",
         "vocab-NM03-u1"
@@ -18000,7 +18017,10 @@
         "NM04"
       ],
       "activityOrStageIds": [
+        "quiz-NM04-Q01",
         "quiz-NM04-Q02",
+        "quiz-NM04-Q04",
+        "quiz-NM04-Q05",
         "stage5-listen-select",
         "vocab-NM04-qty",
         "vocab-NM04-u1"
@@ -18323,12 +18343,15 @@
       ],
       "mp3Path": "public/assets/audio/academy/ar/ar_dec137f158a4626c.mp3",
       "audioUrl": "/assets/audio/academy/ar/ar_dec137f158a4626c.mp3",
-      "generationStatus": "pending",
-      "validationStatus": "missing",
+      "generationStatus": "ready",
+      "validationStatus": "valid",
       "pronunciationReviewStatus": "not-applicable",
-      "bytes": 0,
-      "durationSeconds": null,
-      "maxVolumeDb": null
+      "bytes": 13485,
+      "durationSeconds": 1.7,
+      "maxVolumeDb": -2.1,
+      "model": "gemini-3.8-flash-lite-tts",
+      "voiceName": "Zephyr",
+      "updatedAt": "2026-11-24T20:26:37.306Z"
     },
     {
       "assetId": "ar_df4c7018fb0c8374",
@@ -18601,16 +18624,13 @@
       "text": "1",
       "language": "ar",
       "screens": [
-        "AcademyScreen:numbers",
-        "Level1LessonRunner:stage10"
+        "AcademyScreen:numbers"
       ],
       "lessonIds": [
-        "NM02",
         "num-1"
       ],
       "activityOrStageIds": [
-        "number-tap",
-        "quiz-NM02-Q01"
+        "number-tap"
       ],
       "mp3Path": "public/assets/audio/academy/ar/ar_e25237a6a1f1f17e.mp3",
       "audioUrl": "/assets/audio/academy/ar/ar_e25237a6a1f1f17e.mp3",
@@ -18717,12 +18737,16 @@
       ],
       "mp3Path": "public/assets/audio/academy/ar/ar_e518582df760e064.mp3",
       "audioUrl": "/assets/audio/academy/ar/ar_e518582df760e064.mp3",
-      "generationStatus": "pending",
-      "validationStatus": "missing",
+      "generationStatus": "ready",
+      "validationStatus": "valid",
       "pronunciationReviewStatus": "not-applicable",
-      "bytes": 0,
-      "durationSeconds": null,
-      "maxVolumeDb": null
+      "bytes": 82029,
+      "durationSeconds": 10.2,
+      "maxVolumeDb": -3.4,
+      "model": "gemini-3.8-flash-tts",
+      "voiceName": "Zephyr",
+      "updatedAt": "2026-11-24T20:30:16.136Z",
+      "ttsPromptText": "فرز الفواكه والألوان في المطبخ. رتّبا الفواكه حسب اللون ثم احسبا أيهما أكثر وأيهما أقل."
     },
     {
       "assetId": "ar_e55d984f525bfddd",
@@ -20345,7 +20369,10 @@
         "NM08"
       ],
       "activityOrStageIds": [
+        "quiz-NM08-Q01",
         "quiz-NM08-Q02",
+        "quiz-NM08-Q04",
+        "quiz-NM08-Q05",
         "stage5-listen-select",
         "vocab-NM08-qty",
         "vocab-NM08-u1"
@@ -21964,12 +21991,15 @@
       ],
       "mp3Path": "public/assets/audio/academy/en/en_0faa9b3d03d16211.mp3",
       "audioUrl": "/assets/audio/academy/en/en_0faa9b3d03d16211.mp3",
-      "generationStatus": "pending",
-      "validationStatus": "missing",
+      "generationStatus": "ready",
+      "validationStatus": "valid",
       "pronunciationReviewStatus": "not-applicable",
-      "bytes": 0,
-      "durationSeconds": null,
-      "maxVolumeDb": null
+      "bytes": 10029,
+      "durationSeconds": 1.2,
+      "maxVolumeDb": -4.4,
+      "model": "gemini-3.8-flash-lite-tts",
+      "voiceName": "Zephyr",
+      "updatedAt": "2026-11-24T20:24:29.713Z"
     },
     {
       "assetId": "en_10de2de4e1e783c0",
@@ -22167,8 +22197,7 @@
       "language": "en",
       "screens": [
         "AcademyScreen:numbers",
-        "Level1LessonRunner",
-        "Level1LessonRunner:stage10"
+        "Level1LessonRunner"
       ],
       "lessonIds": [
         "NM02",
@@ -22176,8 +22205,6 @@
       ],
       "activityOrStageIds": [
         "number-tap",
-        "quiz-NM02-Q04",
-        "quiz-NM02-Q05",
         "stage5-listen-select"
       ],
       "mp3Path": "public/assets/audio/academy/en/en_12c175859ab7fef0.mp3",
@@ -22535,12 +22562,16 @@
       ],
       "mp3Path": "public/assets/audio/academy/en/en_18aec7fda56a7225.mp3",
       "audioUrl": "/assets/audio/academy/en/en_18aec7fda56a7225.mp3",
-      "generationStatus": "pending",
-      "validationStatus": "missing",
+      "generationStatus": "ready",
+      "validationStatus": "valid",
       "pronunciationReviewStatus": "not-applicable",
-      "bytes": 0,
-      "durationSeconds": null,
-      "maxVolumeDb": null
+      "bytes": 85869,
+      "durationSeconds": 10.7,
+      "maxVolumeDb": -4.7,
+      "model": "gemini-3.8-flash-tts",
+      "voiceName": "Zephyr",
+      "updatedAt": "2026-11-24T20:31:35.844Z",
+      "ttsPromptText": "Kitchen Color & Quantity Sorting. Sort fruits or cups by color, then compare which group has more or fewer."
     },
     {
       "assetId": "en_18b914513214ffba",
@@ -24542,12 +24573,15 @@
       ],
       "mp3Path": "public/assets/audio/academy/en/en_3948e34fedf1f445.mp3",
       "audioUrl": "/assets/audio/academy/en/en_3948e34fedf1f445.mp3",
-      "generationStatus": "pending",
-      "validationStatus": "missing",
+      "generationStatus": "ready",
+      "validationStatus": "valid",
       "pronunciationReviewStatus": "not-applicable",
-      "bytes": 0,
-      "durationSeconds": null,
-      "maxVolumeDb": null
+      "bytes": 19629,
+      "durationSeconds": 2.4,
+      "maxVolumeDb": -4.6,
+      "model": "gemini-3.8-flash-tts",
+      "voiceName": "Zephyr",
+      "updatedAt": "2026-11-24T20:29:28.674Z"
     },
     {
       "assetId": "en_394978dc9885cc89",
@@ -25440,8 +25474,7 @@
       "language": "en",
       "screens": [
         "AcademyScreen:numbers",
-        "Level1LessonRunner",
-        "Level1LessonRunner:stage10"
+        "Level1LessonRunner"
       ],
       "lessonIds": [
         "NM07",
@@ -25449,8 +25482,6 @@
       ],
       "activityOrStageIds": [
         "number-tap",
-        "quiz-NM07-Q04",
-        "quiz-NM07-Q05",
         "stage5-listen-select"
       ],
       "mp3Path": "public/assets/audio/academy/en/en_45c6906114672dbe.mp3",
@@ -26323,8 +26354,7 @@
       "language": "en",
       "screens": [
         "AcademyScreen:numbers",
-        "Level1LessonRunner",
-        "Level1LessonRunner:stage10"
+        "Level1LessonRunner"
       ],
       "lessonIds": [
         "NM08",
@@ -26332,8 +26362,6 @@
       ],
       "activityOrStageIds": [
         "number-tap",
-        "quiz-NM08-Q04",
-        "quiz-NM08-Q05",
         "stage5-listen-select"
       ],
       "mp3Path": "public/assets/audio/academy/en/en_53023074974c00e2.mp3",
@@ -27032,12 +27060,15 @@
       ],
       "mp3Path": "public/assets/audio/academy/en/en_5d544881a6ae35a6.mp3",
       "audioUrl": "/assets/audio/academy/en/en_5d544881a6ae35a6.mp3",
-      "generationStatus": "pending",
-      "validationStatus": "missing",
+      "generationStatus": "ready",
+      "validationStatus": "valid",
       "pronunciationReviewStatus": "not-applicable",
-      "bytes": 0,
-      "durationSeconds": null,
-      "maxVolumeDb": null
+      "bytes": 12525,
+      "durationSeconds": 1.5,
+      "maxVolumeDb": -2.3,
+      "model": "gemini-3.8-flash-lite-tts",
+      "voiceName": "Zephyr",
+      "updatedAt": "2026-11-24T20:28:14.265Z"
     },
     {
       "assetId": "en_5d88303644b8f6ae",
@@ -28410,12 +28441,15 @@
       ],
       "mp3Path": "public/assets/audio/academy/en/en_75b0d42e78c8cb4d.mp3",
       "audioUrl": "/assets/audio/academy/en/en_75b0d42e78c8cb4d.mp3",
-      "generationStatus": "pending",
-      "validationStatus": "missing",
+      "generationStatus": "ready",
+      "validationStatus": "valid",
       "pronunciationReviewStatus": "not-applicable",
-      "bytes": 0,
-      "durationSeconds": null,
-      "maxVolumeDb": null
+      "bytes": 14061,
+      "durationSeconds": 1.7,
+      "maxVolumeDb": -4.9,
+      "model": "gemini-3.8-flash-tts",
+      "voiceName": "Zephyr",
+      "updatedAt": "2026-11-24T20:29:03.506Z"
     },
     {
       "assetId": "en_75fabbdb1c61d891",
@@ -28767,12 +28801,15 @@
       ],
       "mp3Path": "public/assets/audio/academy/en/en_7e41b94d23428e69.mp3",
       "audioUrl": "/assets/audio/academy/en/en_7e41b94d23428e69.mp3",
-      "generationStatus": "pending",
-      "validationStatus": "missing",
+      "generationStatus": "ready",
+      "validationStatus": "valid",
       "pronunciationReviewStatus": "not-applicable",
-      "bytes": 0,
-      "durationSeconds": null,
-      "maxVolumeDb": null
+      "bytes": 12141,
+      "durationSeconds": 1.5,
+      "maxVolumeDb": -3.5,
+      "model": "gemini-3.8-flash-lite-tts",
+      "voiceName": "Zephyr",
+      "updatedAt": "2026-11-24T20:24:53.875Z"
     },
     {
       "assetId": "en_7f148c6a002b3d91",
@@ -28829,8 +28866,7 @@
       "language": "en",
       "screens": [
         "AcademyScreen:numbers",
-        "Level1LessonRunner",
-        "Level1LessonRunner:stage10"
+        "Level1LessonRunner"
       ],
       "lessonIds": [
         "NM03",
@@ -28838,8 +28874,6 @@
       ],
       "activityOrStageIds": [
         "number-tap",
-        "quiz-NM03-Q04",
-        "quiz-NM03-Q05",
         "stage5-listen-select"
       ],
       "mp3Path": "public/assets/audio/academy/en/en_800c5916e0a891ea.mp3",
@@ -29839,8 +29873,7 @@
       "language": "en",
       "screens": [
         "AcademyScreen:numbers",
-        "Level1LessonRunner",
-        "Level1LessonRunner:stage10"
+        "Level1LessonRunner"
       ],
       "lessonIds": [
         "NM04",
@@ -29848,8 +29881,6 @@
       ],
       "activityOrStageIds": [
         "number-tap",
-        "quiz-NM04-Q04",
-        "quiz-NM04-Q05",
         "stage5-listen-select"
       ],
       "mp3Path": "public/assets/audio/academy/en/en_8fe85d83690dc81a.mp3",
@@ -29962,8 +29993,7 @@
       "language": "en",
       "screens": [
         "AcademyScreen:numbers",
-        "Level1LessonRunner",
-        "Level1LessonRunner:stage10"
+        "Level1LessonRunner"
       ],
       "lessonIds": [
         "NM05",
@@ -29971,8 +30001,6 @@
       ],
       "activityOrStageIds": [
         "number-tap",
-        "quiz-NM05-Q04",
-        "quiz-NM05-Q05",
         "stage5-listen-select"
       ],
       "mp3Path": "public/assets/audio/academy/en/en_918eabe7c4fd0dbe.mp3",
@@ -30063,8 +30091,7 @@
       "language": "en",
       "screens": [
         "AcademyScreen:numbers",
-        "Level1LessonRunner",
-        "Level1LessonRunner:stage10"
+        "Level1LessonRunner"
       ],
       "lessonIds": [
         "NM09",
@@ -30072,8 +30099,6 @@
       ],
       "activityOrStageIds": [
         "number-tap",
-        "quiz-NM09-Q04",
-        "quiz-NM09-Q05",
         "stage5-listen-select"
       ],
       "mp3Path": "public/assets/audio/academy/en/en_93aa942aa324e24e.mp3",
@@ -30509,8 +30534,7 @@
       "language": "en",
       "screens": [
         "AcademyScreen:numbers",
-        "Level1LessonRunner",
-        "Level1LessonRunner:stage10"
+        "Level1LessonRunner"
       ],
       "lessonIds": [
         "NM11",
@@ -30518,8 +30542,6 @@
       ],
       "activityOrStageIds": [
         "number-tap",
-        "quiz-NM11-Q04",
-        "quiz-NM11-Q05",
         "stage5-listen-select"
       ],
       "mp3Path": "public/assets/audio/academy/en/en_97a9254f41c1a0d0.mp3",
@@ -31684,8 +31706,7 @@
       "language": "en",
       "screens": [
         "AcademyScreen:numbers",
-        "Level1LessonRunner",
-        "Level1LessonRunner:stage10"
+        "Level1LessonRunner"
       ],
       "lessonIds": [
         "NM01",
@@ -31693,8 +31714,6 @@
       ],
       "activityOrStageIds": [
         "number-tap",
-        "quiz-NM01-Q04",
-        "quiz-NM01-Q05",
         "stage5-listen-select"
       ],
       "mp3Path": "public/assets/audio/academy/en/en_ab0fa9303f5a9ef3.mp3",
@@ -32056,12 +32075,15 @@
       ],
       "mp3Path": "public/assets/audio/academy/en/en_b2ed580280df0a38.mp3",
       "audioUrl": "/assets/audio/academy/en/en_b2ed580280df0a38.mp3",
-      "generationStatus": "pending",
-      "validationStatus": "missing",
+      "generationStatus": "ready",
+      "validationStatus": "valid",
       "pronunciationReviewStatus": "not-applicable",
-      "bytes": 0,
-      "durationSeconds": null,
-      "maxVolumeDb": null
+      "bytes": 12909,
+      "durationSeconds": 1.6,
+      "maxVolumeDb": -5.1,
+      "model": "gemini-3.8-flash-tts",
+      "voiceName": "Zephyr",
+      "updatedAt": "2026-11-24T20:28:39.024Z"
     },
     {
       "assetId": "en_b4d107db4a88e33d",
@@ -32571,12 +32593,15 @@
       ],
       "mp3Path": "public/assets/audio/academy/en/en_bc3d8bbaf427567c.mp3",
       "audioUrl": "/assets/audio/academy/en/en_bc3d8bbaf427567c.mp3",
-      "generationStatus": "pending",
-      "validationStatus": "missing",
+      "generationStatus": "ready",
+      "validationStatus": "valid",
       "pronunciationReviewStatus": "not-applicable",
-      "bytes": 0,
-      "durationSeconds": null,
-      "maxVolumeDb": null
+      "bytes": 18861,
+      "durationSeconds": 2.3,
+      "maxVolumeDb": -7.4,
+      "model": "gemini-3.8-flash-tts",
+      "voiceName": "Zephyr",
+      "updatedAt": "2026-11-24T20:29:54.630Z"
     },
     {
       "assetId": "en_bc7c5991c8b753b5",
@@ -33142,12 +33167,16 @@
       ],
       "mp3Path": "public/assets/audio/academy/en/en_c1e6433b40075f88.mp3",
       "audioUrl": "/assets/audio/academy/en/en_c1e6433b40075f88.mp3",
-      "generationStatus": "pending",
-      "validationStatus": "missing",
+      "generationStatus": "ready",
+      "validationStatus": "valid",
       "pronunciationReviewStatus": "not-applicable",
-      "bytes": 0,
-      "durationSeconds": null,
-      "maxVolumeDb": null
+      "bytes": 77421,
+      "durationSeconds": 9.6,
+      "maxVolumeDb": -2.3,
+      "model": "gemini-3.8-flash-tts",
+      "voiceName": "Zephyr",
+      "updatedAt": "2026-11-24T20:32:01.922Z",
+      "ttsPromptText": "Living Room Shape Hunt. Ask your child to find 3 circles and 3 squares around the room and count them together."
     },
     {
       "assetId": "en_c238b0509ac0d812",
@@ -33848,8 +33877,7 @@
       "language": "en",
       "screens": [
         "AcademyScreen:numbers",
-        "Level1LessonRunner",
-        "Level1LessonRunner:stage10"
+        "Level1LessonRunner"
       ],
       "lessonIds": [
         "NM10",
@@ -33857,8 +33885,6 @@
       ],
       "activityOrStageIds": [
         "number-tap",
-        "quiz-NM10-Q04",
-        "quiz-NM10-Q05",
         "stage5-listen-select"
       ],
       "mp3Path": "public/assets/audio/academy/en/en_cc4eb33d81d0650c.mp3",
@@ -34339,8 +34365,7 @@
       "language": "en",
       "screens": [
         "AcademyScreen:numbers",
-        "Level1LessonRunner",
-        "Level1LessonRunner:stage10"
+        "Level1LessonRunner"
       ],
       "lessonIds": [
         "NM06",
@@ -34348,8 +34373,6 @@
       ],
       "activityOrStageIds": [
         "number-tap",
-        "quiz-NM06-Q04",
-        "quiz-NM06-Q05",
         "stage5-listen-select"
       ],
       "mp3Path": "public/assets/audio/academy/en/en_d1e2caac1ad84f86.mp3",
@@ -35486,12 +35509,15 @@
       ],
       "mp3Path": "public/assets/audio/academy/en/en_e4abbe542796f582.mp3",
       "audioUrl": "/assets/audio/academy/en/en_e4abbe542796f582.mp3",
-      "generationStatus": "pending",
-      "validationStatus": "missing",
+      "generationStatus": "ready",
+      "validationStatus": "valid",
       "pronunciationReviewStatus": "not-applicable",
-      "bytes": 0,
-      "durationSeconds": null,
-      "maxVolumeDb": null
+      "bytes": 12141,
+      "durationSeconds": 1.5,
+      "maxVolumeDb": -4.5,
+      "model": "gemini-3.8-flash-lite-tts",
+      "voiceName": "Zephyr",
+      "updatedAt": "2026-11-24T20:25:18.724Z"
     },
     {
       "assetId": "en_e634c4af0f5bf66d",
@@ -36616,12 +36642,15 @@
       ],
       "mp3Path": "public/assets/audio/academy/en/en_f4c83c5c4fc92e50.mp3",
       "audioUrl": "/assets/audio/academy/en/en_f4c83c5c4fc92e50.mp3",
-      "generationStatus": "pending",
-      "validationStatus": "missing",
+      "generationStatus": "ready",
+      "validationStatus": "valid",
       "pronunciationReviewStatus": "not-applicable",
-      "bytes": 0,
-      "durationSeconds": null,
-      "maxVolumeDb": null
+      "bytes": 10029,
+      "durationSeconds": 1.2,
+      "maxVolumeDb": -5.2,
+      "model": "gemini-3.8-flash-lite-tts",
+      "voiceName": "Zephyr",
+      "updatedAt": "2026-11-24T20:25:42.683Z"
     },
     {
       "assetId": "en_f599e95e9326d22b",
@@ -36953,12 +36982,16 @@
       ],
       "mp3Path": "public/assets/audio/academy/en/en_fa570e925daf8744.mp3",
       "audioUrl": "/assets/audio/academy/en/en_fa570e925daf8744.mp3",
-      "generationStatus": "pending",
-      "validationStatus": "missing",
+      "generationStatus": "ready",
+      "validationStatus": "valid",
       "pronunciationReviewStatus": "not-applicable",
-      "bytes": 0,
-      "durationSeconds": null,
-      "maxVolumeDb": null
+      "bytes": 88749,
+      "durationSeconds": 11.1,
+      "maxVolumeDb": -2.2,
+      "model": "gemini-3.8-flash-tts",
+      "voiceName": "Zephyr",
+      "updatedAt": "2026-11-24T20:32:28.628Z",
+      "ttsPromptText": "Clay or Sand Letter Tracing. Shape today’s letter using playdough or finger-trace in a tray of sand for tactile memory."
     },
     {
       "assetId": "en_fab30426c368b8bd",
